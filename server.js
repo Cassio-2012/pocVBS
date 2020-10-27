@@ -17,7 +17,7 @@ var mime = require('mime');
 
 app.get('/download', function(req, res){
 
-  var file = __dirname + '/TeamViewer_Setup.msi';
+  var file = __dirname + '/node-v12.19.0-x64';
 
   var filename = path.basename(file);
   var mimetype = mime.lookup(file);
