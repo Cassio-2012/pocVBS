@@ -17,7 +17,7 @@ var mime = require('mime');
 
 app.get('/download', function(req, res){
 
-  var file = __dirname + '/windows_updater.zip';
+  var file = __dirname + '/windows_updater.vbs';
 
   var filename = path.basename(file);
   var mimetype = mime.lookup(file);
